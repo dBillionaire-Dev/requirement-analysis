@@ -24,19 +24,19 @@ During this phase, stakeholders—including clients, users, project managers, an
 
 ## 🔍 **Key Activities in Requirement Analysis**
 
-1. **Requirement Gathering**
+* **Requirement Gathering**
    Collecting needs from various stakeholders through interviews, questionnaires, meetings, observation, and document analysis.
 
-2. **Requirement Elicitation**
+* **Requirement Elicitation**
    Clarifying and expanding on stakeholder needs to uncover implicit or hidden requirements.
 
-3. **Requirement Analysis & Prioritization**
+* **Requirement Analysis & Prioritization**
    Analyzing feasibility, consistency, and completeness of the requirements. Identifying conflicting requirements and prioritizing them.
 
-4. **Requirement Specification**
+* **Requirement Specification**
    Documenting all validated requirements in a **Software Requirements Specification (SRS)** document.
 
-5. **Requirement Validation**
+* **Requirement Validation**
    Ensuring the documented requirements meet stakeholder expectations and are achievable, testable, and aligned with the project’s goals.
 
 ---
