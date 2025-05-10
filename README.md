@@ -246,5 +246,4 @@ In simple terms, it answers:
 
 ### 🏡 Example (StayEase - Airbnb Clone)
 
-
-![Screenshot from 2025-05-10 21-56-37](https://github.com/user-attachments/assets/ce73d087-a331-4c77-8659-447a5b09ce4e)
+![Screenshot from 2025-05-10 21-56-37](https://github.com/user-attachments/assets/abff45b0-f740-4541-a6be-367becf450d2)
