@@ -248,3 +248,44 @@ In simple terms, it answers:
 
 ![alx-booking-uc png](https://github.com/user-attachments/assets/e74bfd34-50a4-46d3-aae4-1e7e125986f3)
 
+---
+
+## 🎯 **Acceptance Criteria**
+
+1. **Guest can review booking summary**
+
+   * Given the guest has selected a property and date range,
+   * When they proceed to checkout,
+   * Then they should see a summary including property details, stay duration, total price, service fees, and cancellation policy.
+
+2. **Secure payment processing**
+
+   * Given the guest is on the checkout page,
+   * When they enter valid payment details,
+   * Then the payment should be processed securely using the integrated payment gateway (e.g., Stripe or PayPal).
+
+3. **Payment failure handling**
+
+   * Given the guest enters invalid or declined payment details,
+   * When the payment is submitted,
+   * Then the system should show an appropriate error message and allow retry.
+
+4. **Confirmation message and email**
+
+   * Given the payment is successful,
+   * When the booking is completed,
+   * Then the guest should see a confirmation page and receive a confirmation email with booking details.
+
+5. **Booking is saved to database**
+
+   * Given the payment is successful,
+   * When the booking is confirmed,
+   * Then the booking information should be stored in the system and linked to the guest's profile.
+
+6. **Booking calendar updates**
+
+   * Given a successful checkout,
+   * When the booking is recorded,
+   * Then the booked dates should be marked as unavailable on the property calendar.
+
+---
