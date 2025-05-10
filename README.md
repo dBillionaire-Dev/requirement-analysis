@@ -41,7 +41,7 @@ During this phase, stakeholders—including clients, users, project managers, an
 
 ---
 
-## ⭐ **Importance of Requirement Analysis in SDLC**
+## ⭐ **Why is Requirement Analysis Important?**
 
 1. ### ✅ **Defines the Project Scope**
 
