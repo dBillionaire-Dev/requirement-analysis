@@ -91,3 +91,98 @@ During this phase, stakeholders—including clients, users, project managers, an
 * Requirements Traceability Matrix (RTM)
 
 ---
+
+## **Types of Requirements.**
+
+
+## 🔍 **1. Requirement Gathering**
+
+### 🟢 Functional Requirements (FR)
+
+These define **what** the system should do.
+
+**Examples:**
+
+* Users must be able to **create accounts** using email and password or third-party auth (e.g., Google).
+* Hosts should be able to **list properties** with descriptions, photos, pricing, and availability.
+* Guests must be able to **search for properties** based on location, price range, and dates.
+* Users should be able to **book a stay** and receive a confirmation email.
+* Admins must be able to **view and manage all bookings, users, and listings**.
+
+### 🟡 Non-Functional Requirements (NFR)
+
+These define **how well** the system performs its functions.
+
+**Examples:**
+
+* The system should handle **up to 10,000 concurrent users**.
+* The search functionality must return results **within 2 seconds**.
+* The platform must be **available 99.9% of the time** (high availability).
+* The app must be **responsive across devices** (mobile, tablet, desktop).
+* All data must be **encrypted using SSL/TLS** protocols.
+
+---
+
+## 🤝 **2. Requirement Elicitation**
+
+### 🟢 Functional Requirements
+
+* Host dashboard must allow users to **edit or delete listings**.
+* Users must be able to **rate and review** properties after checkout.
+* There must be a feature to **message hosts** before making a booking.
+
+### 🟡 Non-Functional Requirements
+
+* The messaging feature must have **real-time delivery** with **<1s latency**.
+* User interactions should be tracked for **analytics and behavior monitoring**.
+* The system should comply with **GDPR** for users in Europe.
+
+---
+
+## ⚙️ **3. Requirement Analysis & Prioritization**
+
+### 🟢 Functional Requirements
+
+* Payment integration must support **Stripe or PayPal**.
+* Users should be able to **filter properties by amenities** (e.g., Wi-Fi, parking).
+* Users should receive **booking reminders and cancellation policies** via email.
+
+### 🟡 Non-Functional Requirements
+
+* Payments must be **PCI DSS compliant**.
+* High-priority features (search, booking) should have **99.99% uptime SLA**.
+* System must be **scalable to accommodate regional growth**.
+
+---
+
+## 📝 **4. Requirement Specification**
+
+### 🟢 Functional Requirements
+
+* Property listing form must include fields for title, description, images, nightly rate, and rules.
+* Booking form must capture check-in/check-out dates, guest count, and payment details.
+* Admin panel must provide **filtering, reporting, and user management** options.
+
+### 🟡 Non-Functional Requirements
+
+* UI/UX must follow **WCAG 2.1 accessibility standards**.
+* Data must be backed up **every 24 hours**.
+* Platform should support **multi-language support (English, Spanish, French)**.
+
+---
+
+## ✅ **5. Requirement Validation**
+
+### 🟢 Functional Requirements
+
+* Confirm with stakeholders that **search and filter logic** matches expected user journey.
+* Review wireframes to validate the **booking flow** and **checkout steps**.
+* Confirm that users can **cancel bookings** and receive refunds per policy.
+
+### 🟡 Non-Functional Requirements
+
+* Validate **performance benchmarks** via load testing (e.g., booking within 3s).
+* Confirm security measures with penetration testing (e.g., XSS/SQL injection prevention).
+* Ensure **mobile compatibility** across major browsers and OS versions.
+
+---
