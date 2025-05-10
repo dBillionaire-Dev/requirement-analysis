@@ -186,3 +186,65 @@ These define **how well** the system performs its functions.
 * Ensure **mobile compatibility** across major browsers and OS versions.
 
 ---
+
+## **Use Case Diagrams.**
+
+### 📘 **What are Use Case Diagrams?**
+
+A **Use Case Diagram** is a type of **Unified Modeling Language (UML)** diagram used to visually represent the **functional requirements** of a system from the user's perspective. It shows **interactions** between external users (**actors**) and the system to achieve a specific goal (**use cases**).
+
+In simple terms, it answers:
+
+* **Who** will use the system? (actors)
+* **What** will they do with it? (use cases)
+
+---
+
+### 🧩 **Basic Components of a Use Case Diagram**
+
+| Element             | Description                                                                                |
+| ------------------- | ------------------------------------------------------------------------------------------ |
+| **Actor**           | A user or external system that interacts with the system (e.g., Guest, Host, Admin)        |
+| **Use Case**        | A specific action or function performed in the system (e.g., Book Property, List Property) |
+| **System Boundary** | A box that defines the scope of the system                                                 |
+| **Relationships**   | Connections between actors and use cases (`include`, `extend`, or direct association)      |
+
+---
+
+### ✨ **Benefits of Use Case Diagrams**
+
+1. ### ✅ **Clear Visualization of System Behavior**
+
+   * Helps stakeholders understand how users will interact with the system.
+   * Makes it easier to explain features to non-technical clients or team members.
+
+2. ### 🧠 **Helps Identify Functional Requirements**
+
+   * A structured way to define what the system **must do** based on user actions.
+   * Ensures all user needs are captured.
+
+3. ### 👥 **Defines User Roles and Responsibilities**
+
+   * Clarifies which user (actor) is responsible for which actions in the system.
+   * Useful for role-based access control design.
+
+4. ### 🔍 **Aids in Requirement Validation**
+
+   * Makes it easier to confirm with stakeholders whether the use cases match real-world expectations.
+   * Can reveal missing or redundant functionality early.
+
+5. ### 🧪 **Foundation for Test Case Design**
+
+   * Each use case can be directly translated into **test scenarios** for QA and UAT (User Acceptance Testing).
+
+6. ### 🚀 **Improves Communication Among Teams**
+
+   * Provides a shared visual reference for **developers, designers, testers, and clients**.
+   * Reduces ambiguity and misinterpretation of requirements.
+
+---
+
+### 🏡 Example (StayEase - Airbnb Clone)
+
+
+![Screenshot from 2025-05-10 21-56-37](https://github.com/user-attachments/assets/ce73d087-a331-4c77-8659-447a5b09ce4e)
